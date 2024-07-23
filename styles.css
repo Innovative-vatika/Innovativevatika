@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('colosseum.jpg');
+    background-size: cover;
+    color: #5e3d1a; /* Brown color theme */
+}
+
+header {
+    background-color: rgba(94, 61, 26, 0.8);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #5e3d1a;
+}
+
+.member, .developer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.member img, .developer img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#postedContent {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+}
